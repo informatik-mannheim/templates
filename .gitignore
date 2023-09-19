@@ -30,3 +30,5 @@ latex/tex/thesis.pdf
 latex/tex/thesis.run.xml
 latex/tex/thesis.slg
 latex/tex/thesis.ist
+*.loc
+*.loc
