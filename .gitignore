@@ -32,3 +32,10 @@ latex/tex/thesis.slg
 latex/tex/thesis.ist
 *.loc
 *.loc
+*.bcf
+*.maf
+*.mtc
+*.mtc0
+*.mw
+wif/wif.run.xml
+wif/wif.pdf

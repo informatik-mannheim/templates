@@ -1,0 +1,130 @@
+
+
+% Dokumenteneinstellungen und Infos importieren
+\input{docinfo}
+
+% Preambel importieren
+\input{preambel}
+
+
+\addbibresource{literatur.bib}
+
+
+\begin{document}
+	
+			
+	\section{Ein erster Abschnitt}
+	
+	%%% Nachfolgenden Befehl nicht löschen oder ändern!
+	\thispagestyle{headings}	
+	
+	
+	\blindtext[5]
+	
+	
+	
+	%%% Nachfolgende 2 Befehle nicht löschen oder ändern!
+	\markright{\@\hsmaautor: \@\shorttitle}
+	\thispagestyle{headings}
+	
+	
+	
+	
+	
+	
+	\begin{figure}[th]
+		\centering
+		\includegraphics[width=0.7\linewidth]{bilder/nasa_rover}
+		\caption{}
+		\label{fig:nasarover}
+	\end{figure}
+	
+	\cite{Kornmeier2011}
+	\blindtext[4]
+	\subsection{Unterabschnitt}
+	
+	\blindtext[5]
+	
+	\subsubsection{Unter-Unterabschnitt}
+	
+	\blindtext[5]
+	
+	\paragraph{Eine weitere Überschrift}
+	
+	\begin{figure*}
+		\centering
+		\includegraphics[width=0.7\linewidth]{bilder/nature}
+		\caption{}
+		\label{fig:nature}
+	\end{figure*}
+	
+	
+	\subparagraph{Noch eine kleinere Überschrift}
+	
+	\subsection{Weiterer Unterabschnitt}
+	
+	\begin{align*} 
+		2x - 5y &=  8 \\ 
+		3x + 9y &=  -12
+	\end{align*}
+	
+	\subsubsection{Unter-Unterabschnitt}
+	
+	
+	\begin{enumerate}
+		\item Eintrag 1
+		\item Eintrag 2
+		\item Eintrag 3
+	\end{enumerate}
+	
+	\section{Tabellen}
+	
+	Tabellen werden normalerweise ohne vertikale Striche gesetzt, sondern die Spalten werden durch einen entsprechenden Abstand voneinander getrennt.\footnote{Siehe \cite[S. 89]{Willberg2021}.} Zum Einsatz kommen ausschließlich horizontale Linien (siehe \autoref{Kap2:Kopplungsformen}).
+	
+	\begin{table}[ht]
+		\caption{Ebenen der Kopplung und Beispiele für enge und lose Kopplung}
+		\label{Kap2:Kopplungsformen}
+		\renewcommand{\arraystretch}{1.2}
+		\centering
+		\resizebox{\linewidth}{!}{  
+			\begin{tabular}{l l l}
+				\toprule
+				\textbf{Form der Kopplung} & \textbf{enge Kopplung} & \textbf{lose Kopplung}\\
+				\midrule
+				Physikalische Verbindung	&	Punkt-zu-Punkt	& 	über Vermittler\\
+				Kommunikationsstil	&	synchron		&	asynchron\\
+				Datenmodell	&	komplexe gemeinsame Typen	&	nur einfache gemeinsame Typen\\
+				Bindung	&	statisch		&	dynamisch\\
+				\bottomrule
+			\end{tabular}
+		}
+	\end{table}
+	
+	
+	\begin{table*}[ht]
+		\caption{Ebenen der Kopplung und Beispiele für enge und lose Kopplung}
+		\label{Kap2:KopplungsformenA}
+		\renewcommand{\arraystretch}{1.2}
+		\centering
+			\begin{tabular}{l l l}
+				\toprule
+				\textbf{Form der Kopplung} & \textbf{enge Kopplung} & \textbf{lose Kopplung}\\
+				\midrule
+				Physikalische Verbindung	&	Punkt-zu-Punkt	& 	über Vermittler\\
+				Kommunikationsstil	&	synchron		&	asynchron\\
+				Datenmodell	&	komplexe gemeinsame Typen	&	nur einfache gemeinsame Typen\\
+				Bindung	&	statisch		&	dynamisch\\
+				\bottomrule
+			\end{tabular}
+	\end{table*}
+	
+	\appendix
+	
+	\section{Der erste Anhang}
+	
+	\subsection{Mit einem Unteranschnitt}
+	
+	
+
+
+\end{document}
