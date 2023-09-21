@@ -24,4 +24,5 @@
 *.ind
 *.acr
 *.alg
-
+*.loc
+*.soc
