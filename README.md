@@ -19,16 +19,36 @@ Für wissenschaftliche Veröffentlichungen und Abschlussarbeiten ist die Erzeugu
 Dokumententyp				 | Templatedatei(en)									| Dokumentenklasse
 ---------------------------------------- | ------------------------------------------------------------------------------------ | ----------------
 Abschlussarbeiten 			 | Thesis.tex, verwendet auch Bibliography.bib	| hsma.cls mit studiengaenge.tex, titlepage.sty 
-
+---------------------------------------- | ------------------------------------------------------------------------------------ | ----------------
+Exposé für das Modul Wissenschaftliches Arbeiten für Fortgeschrittene (WIF)			 | wif.tex, verwendet auch Bibliography.bib	| hsma.cls mit texcount.pl
+---------------------------------------- | ------------------------------------------------------------------------------------ | ----------------
 
 # Liste aller enthaltenen Dateien:
 
 * README.md
 * thesis/
-  - thesis.tex
+  - bilder/
+  - kapitel/
+  - src/
+  - pdfs/ 
+  - abstract.tex
+  - docinfo.tex
   - hsma.cls
-  - titlepage.sty
+  - literatur.bib
+  - preambel.tex
   - studiengaenge.tex
+  - thesis.tex
+  - titlepage.sty
+  
+ * wif/
+  - bilder/
+  - docinfo.tex
+  - hsma.cls
+  - literatur.bib
+  - preambel.tex
+  - texcount.pl
+  - wif.tex
+  - wordcount.tex
  
 
 
