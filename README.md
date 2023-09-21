@@ -38,8 +38,7 @@ Exposé für das Modul Wissenschaftliches Arbeiten für Fortgeschrittene (WIF)		
   - studiengaenge.tex
   - thesis.tex
   - titlepage.sty
-  
- * wif/
+* wif/
   - bilder/
   - docinfo.tex
   - hsma.cls
