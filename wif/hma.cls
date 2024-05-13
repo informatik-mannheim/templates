@@ -166,8 +166,8 @@
 	\RequirePackage[inline]{enumitem}
 	\setenumerate{noitemsep}  %Kein Platz zwischen den Einträgen
 	
-	\RequirePackage[useregional=numeric]{datetime2}		
-	\newcommand{\semesteryear}{\@dtm@year}
+	%\RequirePackage[useregional=numeric]{datetime2}		
+	\newcommand{\semesteryear}{\the\year}
 	
 	%% Muss nach Datetime stehen!!
 	\renewcommand*{\title}[2][]{\gdef\shorttitle{#1}\gdef\@title{#2}}
